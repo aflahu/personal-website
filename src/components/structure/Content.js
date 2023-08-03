@@ -9,10 +9,7 @@ function Content() {
   return (
     <main>
       <AboutMe />
-      <Skills />
-      <Certifications />
       <Experience />
-      <Articles />
     </main>
   );
 }

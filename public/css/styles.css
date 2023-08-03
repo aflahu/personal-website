@@ -2,17 +2,20 @@ html {
     scroll-behavior: smooth;
 }
 .is-180x180{
-    height: 180px;
-    width: 180px;
+    max-height: 180px;
+    max-width: 180px;
 }
 .skill-list > li{
     margin: 30px 0 0 0;
 }
 .has-bg-image {
-    background-image: url('../images/cover10.webp'), url('../images/cover10.JPG');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/gedung.jpg'), url('../images/gedung.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+.darker-image{
+    filter: brightness(50%);
 }
 .bulma-image {
     width: 200px;
